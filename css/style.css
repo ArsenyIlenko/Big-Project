@@ -44,3 +44,59 @@ h1, h2, h3 {
 .header__contain {
     max-width: 1032px;
 }
+
+.nav__list {
+    font-size: 20px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: end;
+}
+
+.nav__link {
+    padding: 0px 12px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beg__button {
+    width: 200px;
+    position: relative;
+    background-color: #FF6464;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.3px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.beg__pic {
+    display: flex;
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    align-items: center;
+    right: 0;
+}
+
+.beg__img {
+    padding: 0px 0px 100px 0px;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
