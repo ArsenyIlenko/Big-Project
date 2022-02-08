@@ -10,7 +10,7 @@ html, body {
 }
 
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-size: 16px;
     line-height: 1.42;
 }
@@ -33,6 +33,7 @@ h1, h2, h3 {
 .wrapper {
     min-height: 100%;
     overflow: hidden;
+    font-family: 'Exo 2', sans-serif;
 }
 
 .contain {
@@ -41,25 +42,31 @@ h1, h2, h3 {
     margin: 0 auto;
 }
 
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .header__contain {
     max-width: 1032px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav__list {
+    display: flex;
     font-size: 20px;
     line-height: 1.5;
-    display: flex;
-    justify-content: end;
 }
 
 .nav__link {
-    padding: 0px 12px;
+    margin-left: 33px;
+    font-weight: bold
 }
 
 .main {
     display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .beg {
@@ -68,35 +75,42 @@ h1, h2, h3 {
     align-items: center;
 }
 
+.beg__contain {
+    display: flex;
+}
+
+.beg__hello {
+    margin-bottom: 40px;
+}
+
+.beg__nn {
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
 .beg__button {
-    width: 200px;
     position: relative;
     background-color: #FF6464;
     color: white;
     border-radius: 3px;
     border: none;
-    padding: 10px;
+    padding: 17px 20px;
     letter-spacing: 0.3px;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 .beg__pic {
-    display: flex;
     width: 243px;
     height: 243px;
     border-radius: 50%;
-    overflow: hidden;
-    position: absolute;
-    align-items: center;
-    right: 0;
+    overflow: hidden;    
+    display: flex;
+    flex-shrink: 0;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 
 .beg__img {
-    padding: 0px 0px 100px 0px;
-    height: 500px;
+    height: 100%;
     width: 100%;
-    align-items: center;
-    display: block;
-    margin: auto;
+    object-fit: cover;
 }
