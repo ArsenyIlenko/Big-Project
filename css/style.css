@@ -65,8 +65,10 @@ h1, h2, h3 {
 }
 
 .main {
+    margin-top: 158px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .beg {
@@ -77,6 +79,10 @@ h1, h2, h3 {
 
 .beg__contain {
     display: flex;
+}
+
+.beg__info {
+    padding-right: 12.3%;
 }
 
 .beg__hello {
@@ -113,4 +119,66 @@ h1, h2, h3 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.rec {
+    margin-top: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF7FA;
+}
+
+.rec__contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.rec__top {
+    margin-top: 30px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rec__title {
+    font-size: 22px;
+}
+
+.rec__link {
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.rec__arts {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rec__art {
+    width: 418px;
+    min-height: 295px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    padding: 24px 23px 7px 21px;
+}
+
+.rec__subtitle {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.rec__info {
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.rec__sep {
+    padding: 0px 25px 0px 25px;
 }
