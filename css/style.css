@@ -44,7 +44,7 @@ h1, h2, h3 {
 
 .header {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 158px;
 }
 
 .header__contain {
@@ -65,7 +65,6 @@ h1, h2, h3 {
 }
 
 .main {
-    margin-top: 158px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -75,6 +74,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 71px;
 }
 
 .beg__contain {
@@ -122,11 +122,11 @@ h1, h2, h3 {
 }
 
 .rec {
-    margin-top: 71px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #EDF7FA;
+    padding: 27px 0px 32px;
 }
 
 .rec__contain {
@@ -135,7 +135,6 @@ h1, h2, h3 {
 }
 
 .rec__top {
-    margin-top: 30px;
     margin-bottom: 2px;
     display: flex;
     align-items: center;
@@ -158,14 +157,12 @@ h1, h2, h3 {
 }
 
 .rec__art {
-    width: 418px;
-    min-height: 295px;
     border-radius: 5px;
     background-color: white;
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-    padding: 24px 23px 7px 21px;
+    padding: 24px 23px 31px 21px;
 }
 
 .rec__subtitle {
@@ -181,4 +178,8 @@ h1, h2, h3 {
 
 .rec__sep {
     padding: 0px 25px 0px 25px;
+}
+
+.rec__art:last-child {
+    margin: 0;
 }
