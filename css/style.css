@@ -253,3 +253,53 @@ h1, h2, h3 {
 .work__text {
     font-size: 16px;
 }
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+    padding-bottom: 60px;
+}
+
+.foot__list {
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.foot__item {
+    width: 30px;
+    height: 30px;
+}
+
+.foot__link {
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.face {
+    background-image: url('../img/fb.png');
+
+}
+
+.inst {
+    background-image: url('../img/insta.png');
+
+}
+
+.twit {
+    background-image: url('../img/Group.png');
+
+}
+
+.in {
+    background-image: url('../img/Linkedin.png');
+
+}
+
+.foot__text {
+    font-size: 14px;
+    color:#21243D;
+}
