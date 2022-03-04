@@ -64,6 +64,43 @@ h1, h2, h3 {
     font-weight: bold
 }
 
+.header__bur {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header__bur-el {
+    height: 2px;
+    width: 100%;
+    background-color: #21243D;
+    position: relative;
+}
+
+.header__bur-el::before,
+.header__bur-el::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #21243D;
+    position: absolute;
+}
+
+.header__bur-el::before {
+    top: -9px;
+}
+
+.header__bur-el::after {
+    bottom: -9px;
+}
+
+@media (max-width: 480px) {
+    .nav__list {
+        display: none;
+    }
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -286,10 +323,14 @@ h1, h2, h3 {
 }
 
 .foot__item {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-right: 35px;
 
+}
+
+.foot__item:last-child {
+    margin: 0px;
 }
 
 .foot__link {
@@ -298,7 +339,7 @@ h1, h2, h3 {
     height: 100%;
     display: block;
     background-repeat: no-repeat;
-
+    background-position: center;
 }
 
 .face {
