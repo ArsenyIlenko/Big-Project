@@ -200,6 +200,7 @@ h1, h2, h3 {
 .rec__contain {
     display: flex;
     flex-direction: column;
+    
 }
 
 .rec__top {
@@ -426,4 +427,54 @@ h1, h2, h3 {
 .foot__text {
     font-size: 14px;
     color:#21243D;
+}
+
+.blog {
+    display: flex;
+    color: #21243D;
+
+}
+
+.blog__contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__top {
+    padding-top: 117px;
+}
+
+.blog__title-top {
+    font-style: Bold;
+    font-size: 44px;
+}
+
+.blog__arts {
+    display: flex;
+    padding-top: 67px;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.blog__title {
+    font-weight: medium;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.blog__subtitle {
+    margin-bottom: 26px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.blog__sep {
+    padding: 0px 20px;
+}
+
+.blog__text {
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 29px;
 }
