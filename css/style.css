@@ -200,7 +200,6 @@ h1, h2, h3 {
 .rec__contain {
     display: flex;
     flex-direction: column;
-    
 }
 
 .rec__top {
@@ -454,7 +453,11 @@ h1, h2, h3 {
     padding-top: 67px;
     justify-content: center;
     flex-direction: column;
+}
+
+.blog__info {
     border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 35px;
 }
 
 .blog__title {
