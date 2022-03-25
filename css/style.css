@@ -34,6 +34,8 @@ h1, h2, h3 {
     min-height: 100%;
     overflow: hidden;
     font-family: 'Exo 2', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .contain {
@@ -44,7 +46,7 @@ h1, h2, h3 {
 
 .header {
     padding-top: 30px;
-    padding-bottom: 158px;
+    padding-bottom: 30px;
 }
 
 .header__contain {
@@ -109,6 +111,7 @@ h1, h2, h3 {
 }
 
 .main {
+    flex: 1 1 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -118,6 +121,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 128px;
     padding-bottom: 71px;
 }
 
@@ -405,22 +409,23 @@ h1, h2, h3 {
     display: block;
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 0px;
 }
 
-.face {
-    background-image: url('../img/fb.png');
+.vk {
+    background-image: url('../img/vk.png');
 }
 
-.inst {
-    background-image: url('../img/insta.png');
+.ok {
+    background-image: url('../img/ok.png');
 }
 
-.twit {
-    background-image: url('../img/Group.png');
+.gh {
+    background-image: url('../img/github.png');
 }
 
-.in {
-    background-image: url('../img/Linkedin.png');
+.tg {
+    background-image: url('../img/telegram.png');
 }
 
 .foot__text {
@@ -431,7 +436,7 @@ h1, h2, h3 {
 .blog {
     display: flex;
     color: #21243D;
-
+    padding-top: 80px;
 }
 
 .blog__contain {
@@ -461,7 +466,7 @@ h1, h2, h3 {
 }
 
 .blog__title {
-    font-weight: medium;
+    font-weight: 500px;
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -480,4 +485,24 @@ h1, h2, h3 {
     font-style: normal;
     font-size: 16px;
     margin-bottom: 29px;
+}
+
+.blog_text-gray {
+    color: #8695A4;
+}
+
+.rab {
+    display: flex;
+    color: #21243D;
+    padding-top: 95px;
+}
+
+.rab__contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.rab__top {
+    font-style: Bold;
+    font-size: 44px;
 }
